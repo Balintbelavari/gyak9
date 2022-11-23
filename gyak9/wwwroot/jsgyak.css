@@ -1,0 +1,17 @@
+﻿body {
+}
+#pascal {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+.sor {
+    display: flex;
+    flex-direction: row;
+}
+
+.elem {
+    height: 30px;
+    width: 30px;
+}
