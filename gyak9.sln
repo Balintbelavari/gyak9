@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32802.462
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gyak9", "gyak9\gyak9.csproj", "{455E293C-F7EA-400F-9535-92FDED31E7E7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "gyak9", "gyak9\gyak9.csproj", "{455E293C-F7EA-400F-9535-92FDED31E7E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12.gyak", "12.gyak\12.gyak.csproj", "{39978BCA-B3A6-4E16-97F7-98C363AA138A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{455E293C-F7EA-400F-9535-92FDED31E7E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{455E293C-F7EA-400F-9535-92FDED31E7E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{455E293C-F7EA-400F-9535-92FDED31E7E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39978BCA-B3A6-4E16-97F7-98C363AA138A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39978BCA-B3A6-4E16-97F7-98C363AA138A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39978BCA-B3A6-4E16-97F7-98C363AA138A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39978BCA-B3A6-4E16-97F7-98C363AA138A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

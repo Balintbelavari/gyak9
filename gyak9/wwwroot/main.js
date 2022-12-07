@@ -1,13 +1,11 @@
-﻿fetch('/questions/1')
-    .then(response => response.json())
-    .then(data => kérdésMegjelenítés(data)
-);
+﻿
+var questionId = 1
 
 window.onload = function (e) {
     console.log("Oldal betöltve...");
     document.getElementById("előre_gomb").onclick = előre;
     document.getElementById("vissza_gomb").onclick = vissza;
-    kérdésBetöltés(questionId)
+    kérdésBetöltés(questionId);
 }
 
 function kérdésBetöltés(id) {
@@ -17,7 +15,7 @@ function kérdésBetöltés(id) {
                 console.error(`Hibás válasz: ${response.status}`)
             }
             else {
-                kérdésMegjelenítés(response.json())
+                response.json().then(q=>kérdésMegjelenítés(q))
             }
         })
 }
@@ -53,7 +51,6 @@ function válaszfeldolgozás(válasz) {
 }
 
 var jóVálasz;
-var questionId = 4
 
 function választás(n) {
     if (n != jóVálasz) {
